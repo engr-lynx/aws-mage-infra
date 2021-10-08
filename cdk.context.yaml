@@ -1,0 +1,12 @@
+app:
+  name: Magento
+  components:
+    db:
+      name: magento
+      username: magento
+      deleteWithApp: true
+      instance: t3.small
+    es:
+      username: magento
+      deleteWithApp: true
+      instance: t3.small.elasticsearch
